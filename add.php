@@ -13,19 +13,19 @@
 		<table width="25%" border="0">
 			<tr> 
 				<td>Fullname</td>
-				<td><input type="text" name="fullname"></td>
+				<td><input type="text" name="fullname" required/></td>
 			</tr>
 			<tr> 
 				<td>Course</td>
-				<td><input type="text" name="course"></td>
+				<td><input type="text" name="course" required/></td>
 			</tr>
 			<tr> 
 				<td>Email</td>
-				<td><input type="text" name="email"></td>
+				<td><input type="text" name="email" required/></td>
 			</tr>
 			<tr> 
 				<td>Phonenumber</td>
-				<td><input type="text" name="phonenumber"></td>
+				<td><input type="text" name="phonenumber" required/></td>
 			</tr>
 			<tr> 
 				<td></td>
