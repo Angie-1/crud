@@ -2,7 +2,7 @@
 
 include("config.php");
 
-// Check if form is submitted for user update, then redirect to homepage after update
+// Check if form is submitted for student update
 if(isset($_POST['update']))
 {	
 	$id = $_POST['id'];
@@ -15,7 +15,7 @@ if(isset($_POST['update']))
 	
 	$result = mysqli_query($mysqli, "UPDATE studentsdata SET fullname='$fullname',course='$course', email='$email',phonenumber='$phonenumber' WHERE id=$id");
 	
-	// Redirect to homepage
+	// Redirect
 	header("Location: index.php");
 }
 ?>
